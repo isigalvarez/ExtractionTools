@@ -45,8 +45,8 @@ def extract_RadonData(filePath=None):
     ## Assertions #############################################################
     # Define valid devices and chambers
     valid_devices = ['aG','aC','aGv2','aCv2','R7','R7v2','R7DRY','RS']
-#    valid_chambers = ['Cnt','Cn2','V10','V15','V35',
-#                      'C0','C3','C6','C9','C12','C14']    
+    valid_chambers = ['Cnt','Cn2','V10','V15','V35',
+                      'C0','C3','C6','C9','C12','C14']    
     # Make sure the device of the experiment can be handled
     assert experiment_info[1] in valid_devices   
     ###########################################################################
